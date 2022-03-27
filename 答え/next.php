@@ -13,6 +13,7 @@ $dataURL = "data:" . $_SESSION["MIME_Type"] . ";base64," . $file_base64;
 
 // データURL: https://developer.mozilla.org/ja/docs/Web/HTTP/Basics_of_HTTP/Data_URIs
 
+
 if (isset($_POST["btn"])) {
     // 保存するとき
     if ($_POST["btn"] === "1") {
