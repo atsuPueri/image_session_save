@@ -2,6 +2,9 @@
 
 // 実現するのに使える関数たち
 move_uploaded_file();
+rename();
+unlink();
+
 file_get_contents();
 file_put_contents();
 mime_content_type();
