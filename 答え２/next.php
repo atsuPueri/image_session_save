@@ -3,7 +3,6 @@ session_start();
 
 
 if (isset($_POST["btn"])) {
-    ?><pre><?php var_dump($_SESSION); ?></pre><?php 
     
     // 保存するとき
     if ($_POST["btn"] === "1") {
